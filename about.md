@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi, My name is Choi Jae-won.
+Hi, my name is Choi Jae-won.
 
 ### Contact me
 
