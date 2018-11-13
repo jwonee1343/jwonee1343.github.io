@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Hi, My name is Choi Jae-won.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jwonee1343@gmail.com](mailto:jwonee1343@gmail.com)
