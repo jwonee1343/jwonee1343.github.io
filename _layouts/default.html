@@ -6,15 +6,26 @@
     <!-- link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml" /-->
   </head>
-  <body>
+<body>
     <h1>구구단</h1>
 	    <div id="input">
-        <form>
-          수: <input type="number" name="num" value="1">
-          <input type="button" value="추가">
-	      </form>
-      </div>
-  </body>
+            <form>
+    		수: <input id="num" type="number" value="1">
+    		<input id="btn" type="button" value="추가">
+            </form>
+    	</div>
+
+    <script>
+        const $input = document.getElementById('input')
+        const $button = document.getElementById('btn')
+        
+        $button.onclick = function() {
+            var entry = document.createElement("p")
+            entry.innerHTML = "Test"
+            $input.appendChild(entry)
+        }
+    </script>
+</body>
 <!--
   <body>
     <div class="wrapper-masthead">
